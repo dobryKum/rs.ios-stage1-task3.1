@@ -54,7 +54,7 @@
     [self.textFieldBlue addTarget:self action:@selector(returnToDefaultState) forControlEvents:UIControlEventAllTouchEvents];
     
     self.buttonProcess = [[UIButton alloc] initWithFrame:CGRectMake(self.view.bounds.size.width / 2 - 50, 300, 100, 30)];
-    [self.buttonProcess setTitleColor:UIColor.systemBlueColor forState:UIControlStateNormal];
+    [self.buttonProcess setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.buttonProcess setTitle:@"Process" forState:UIControlStateNormal];
     [self.buttonProcess addTarget:self action:@selector(buttonProcessTapped) forControlEvents:UIControlEventTouchUpInside];
     
